@@ -1,4 +1,6 @@
-# tutuł
-## podtutuł
+# Protokół HTTPS
+## I. Definicja protokołu HTTPS
 
-Ala ma kota
+HTTPS - czyli Hypertext Transfer Protocol Secure, to protokół komunikacyjny wykorzystywany w Internecie do bezpiecznej transmisji danych. Jest to bezpieczna wersja protokołu HTTP, gdzie dodano warstwę SSL/TLS w celu zaszyfrowania danych przesyłanych między klientem a serwerem. 
+
+ 
