@@ -7,9 +7,9 @@ HTTPS - czyli Hypertext Transfer Protocol Secure, to protokół komunikacyjny wy
 
 HTTPS - czyli Hypertext Transfer Protocol Secure, to protokół komunikacyjny wykorzystywany w Internecie do bezpiecznej transmisji danych. Jest to bezpieczna wersja protokołu HTTP, gdzie dodano warstwę SSL/TLS w celu zaszyfrowania danych przesyłanych między klientem a serwerem. 
 
- | HTTP | | HTTPS |
- | --- | | --- |
- | Przesyła dane w formie niezaszyfrowanej. | | Przesyła dane w formie zaszyfrowanej | 
+ | HTTP | HTTPS |
+ | --- | --- |
+ | Przesyła dane w formie niezaszyfrowanej | Przesyła dane w formie zaszyfrowanej | 
 
  
 
