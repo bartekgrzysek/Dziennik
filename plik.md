@@ -23,9 +23,27 @@ Na początku uzgadniana jest tożsamość serwera oraz urządzenia użytkownika.
 
 Istnieją trzy podstawowe typy certyfikatów SSL, które określa się na podstawie poziomu weryfikacji (walidacji) danego podmiotu, jakiemu wydaje się certyfikat. 
 
-1. Certyfikat DV (Domain Validation) - czyli certyfikat z weryfikacją domeny. Walidacja dokonuje się w sposób zautomatyzowany i obejmuje informacje zgromadzone w systemie DNS dla domeny danego serwera oraz dane podmiotu ubiegającego się o certyfikat. Weryfikacja nie obejmuje natomiast danych organizacji. W certyfikacie DV zawarta jest jedynie nazwa domeny bez żadnych dodatkowych informacji o podmiocie. 
+** 1. Certyfikat DV (Domain Validation) ** - czyli certyfikat z weryfikacją domeny. Walidacja dokonuje się w sposób zautomatyzowany i obejmuje informacje zgromadzone w systemie DNS dla domeny danego serwera oraz dane podmiotu ubiegającego się o certyfikat. Weryfikacja nie obejmuje natomiast danych organizacji. W certyfikacie DV zawarta jest jedynie nazwa domeny bez żadnych dodatkowych informacji o podmiocie. 
 
 Certyfikat DV jest najtańszy, a jego wystawienie trwa zaledwie parę minut. Zautomatyzowanie całego procesu wiąże się jednak z pewnymi ograniczeniami. Certyfikaty te potwierdzają bezpieczeństwo danej strony, ale nie dostarczają żadnej wiedzy o jej wydawcy. Dlatego sprawdzają się w przypadku takich transmisji danych, które odbywają się między ufającymi sobie stronami.
+
+** 2. Certyfikat OV (Full Organization Validation) ** - czyli certyfikat z weryfikacją właściciela. Oprócz powyższych danych wydawca podejmuje się także walidacji samego podmiotu, który ma otrzymać certyfikat. Tym samym będzie on zawierał nie tylko nazwę i dane firmy, ale i potwierdzał, że podmiot jest właścicielem serwisu. Certyfikatu OV nie można otrzymać bez złożenia dokumentów rejestrowych firmy, za to potrafi on zabezpieczyć większą liczbę domen.  
+
+Ten rodzaj certyfikatu jest nieco droższy niż typ DV, wymaga dodatkowych formalności, a jego wydanie trwa zazwyczaj 1-2 dni. Jest on najczęściej stosowany przez strony WWW, portale i sklepy internetowe.
+
+** 3. Certyfikat EV (Extended Validation) ** - wersja z rozszerzoną weryfikacją właściciela certyfikatu. Najdroższy i wymagający największej cierpliwości, a jednocześnie najbardziej szczegółowy typ. Dany podmiot musi przed jego uzyskaniem przejść trzy stopnie weryfikacji. Wszelkie kryteria w tym zakresie są ustalane przez CA/Browser Forum. Sprawdzeniu ulegają: dane rejestrowe firmy, umowy spółki i samo prawo do posługiwania się domeną. Wszystkie te dane zostają potwierdzone dzięki rozmowie przez telefon, a jeśli firma ma niecałe trzy lata, weryfikuje się także rachunek bankowy. Strony, które zostały zabezpieczone certyfikatem EV, posiadają zielony pasek adresu w przeglądarce oznaczony dodatkowo nazwą firmy.  
+ 
+Tak dokładna weryfikacja tożsamości skutecznie podnosi poziom zaufania klientów. Rozpoznawalny zielony pasek przekłada się na zainteresowanie ofertą i na zwiększoną sprzedaż. Jednocześnie nie są to sprawy tanie – ceny certyfikatów EV zaczynają się od 1000 złotych, a otrzymuje się je dopiero po kilku, nawet 10 dniach. Ubiegają się więc o niego duże firmy, banki i sklepy internetowe
+
+## V. Zastosowanie HTTPS w witrynach internetowych.
+
+1. Ochrona Danych Użytkowników:
+- Loginy i Hasła: Bezpieczna transmisja danych logowania.
+- Formularze: Zabezpieczenie informacji przesyłanych przez formularze.
+
+2. Bezpieczne Transakcje Finansowe:
+- Sklepy Online: Zapewnienie bezpiecznych transakcji kartą kredytową.
+- Bankowość Elektroniczna: Ochrona danych bankowych użytkowników. 
 
  
 
