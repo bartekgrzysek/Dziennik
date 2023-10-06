@@ -10,6 +10,9 @@ HTTPS - czyli Hypertext Transfer Protocol Secure, to protokół komunikacyjny wy
  | HTTP | HTTPS |
  | --- | --- |
  | Przesyła dane w formie niezaszyfrowanej | Przesyła dane w formie zaszyfrowanej | 
+ | Nie wymaga certyfikatów SSL/TLS. | Używa protokołów kryptograficznych (SSL/TLS) do zaszyfrowania danych. |
+ | Działa na standardowym porcie 80. | Działa na standardowym porcie 443. |
+ | Jest podatny na przechwycenie danych przez osoby trzecie. | - |
 
  
 
