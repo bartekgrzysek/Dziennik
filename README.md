@@ -1,2 +1,0 @@
-# Dziennik
-Dziennik stażu
