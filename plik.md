@@ -49,3 +49,26 @@ W warstwie internetowej pracują także protokoły routingu np. RIP, IGRP, EIGRP
 
 W tej ostatniej warstwie dane dostarczane są do odbiorcy przez fizyczne połączenie między komputerami za pomocą np. karty sieciowej, lub modemu. Warstwa ta korzysta z protokołów służących do dynamicznego określania adresów IP. W warstwie dostępu do sieci, pracują trzy ważne protokoły, jeden z nich zapewnia dostęp do sieci w sieciach lokalnych czyli Ethernet, oraz dwa zapewniające dostęp w sieciach rozległych czyli ATM i Frame Relay. 
 
+## IV. TCP
+
+Transmission Control Protocol, czyli TCP, to kluczowy protokół warstwy transportowej w sieciach komputerowych. Jego główną cechą jest niezawodność transmisji danych między urządzeniami. Poprzez mechanizmy potwierdzania odbioru, numerację sekwencyjną i kontrolę przepływu, TCP gwarantuje kompletność i poprawność przesyłanych informacji. Proces "handshakingu" przed transmisją umożliwia skuteczną synchronizację. Kontrola przepływu reguluje prędkość, zapobiegając zatłoczeniu sieci. Elastyczność TCP sprawia, że jest używany w różnych kontekstach, od przeglądania stron internetowych po transfer plików. Wraz z rozwojem technologii, TCP pozostaje kluczowym elementem niezawodnej komunikacji sieciowej. 
+
+-  Nagłówek TCP
+Nagłówek TCP składa się z 20 lub więcej bajtów. Dokładna wielkość zależy od tego czy opcjonalne pole opcji (ang. options) jest używane. Maksymalna wielkość tego pola to 40 bajtów, więc maksymalna wielkość całego nagłówka to 60 bajtów.
+
+![ALT TEXT](http://www.crypto-it.net/Images/theory/tcpip/tcp_header_pl.png)
+
+**Zastosowanie TCP**
+
+TCP jest szeroko wykorzystywane w protokołach i aplikacjach, które wymagają wysokiej niezawodności. Nie jest tak szybkie jak UDP, ale -jeśli skonfigurowane poprawnie- TCP zapewnia wciąż dobrą szybkość transmisji połączoną z dobrą jakością przesyłanych danych. 
+
+## V. IP
+
+Adres IP, czyli Internet Protocol, to unikalny identyfikator przypisany każdemu urządzeniu w sieci. Wersje IPv4 (32-bit) i IPv6 (128-bit) pozwalają na identyfikację i lokalizację urządzeń. Składają się z oktetów lub grup heksadecymalnych, oddzielonych kropkami lub dwukropkami. 
+
+Adresy IP mogą być publiczne (dostępne w Internecie) lub prywatne (wewnątrz sieci). Wykorzystywane są w routingu danych, umożliwiając komunikację między urządzeniami. Dynamiczne przydzielanie adresów przez serwery DHCP ułatwia konfigurację. 
+
+## VI. Zalety i Wady TCP/IP
+
+
+
