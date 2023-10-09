@@ -70,5 +70,12 @@ Adresy IP mogą być publiczne (dostępne w Internecie) lub prywatne (wewnątrz 
 
 ## VI. Zalety i Wady TCP/IP
 
+| Zalety | Wady |
+| --- | --- |
+| Protokół TCP/IP jest skalowalny, co oznacza, że może obsługiwać zarówno małe, lokalne sieci, jak i ogromne globalne infrastruktury, takie jak Internet.| Podstawowa implementacja TCP/IP nie zapewnia wystarczającego bezpieczeństwa |
+| TCP/IP obsługuje różne rodzaje urządzeń i aplikacji, co sprawia, że jest elastyczny w dostosowywaniu się do różnych wymagań sieciowych. | Problemy z adresacją IPv4 |
+|  Protokół TCP/IP jest dobrze sprawdzony i stabilny. | Wprowadzenie nowszych wersji protokołu (np. IPv6) może rodzić wyzwania związane z kompatybilnością wsteczną |
+| Jest dostępny publicznie | Overhead - potwierdzanie odbioru i kontroli przepływu, wiąże się to z stratą wydajności |
+
 
 
