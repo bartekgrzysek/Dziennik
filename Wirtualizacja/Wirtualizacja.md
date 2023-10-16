@@ -167,6 +167,24 @@ Kernel-based Virtual Machine (KVM) to rozszerzenie jądra Linux umożliwiające 
 
 Xen to hipernadzorca wirtualizacji, który umożliwia uruchamianie wielu systemów operacyjnych na jednym fizycznym serwerze. Jest darmowy, open-source i stosuje technikę parawirtualizacji, gdzie goście są dostosowane do współpracy z hypervisorem. Xen jest często używany w centrum danych i chmurach obliczeniowych do efektywnego zarządzania zasobami i izolacji maszyn wirtualnych.
 
+## Czym jest emulacja ?
+
+**Emulacja - definicja**
+
+Emulacja to proces, w którym jeden system (najczęściej komputerowy lub urządzenie) imituje zachowanie innego systemu, najczęściej za pomocą oprogramowania. Głównym celem emulacji jest umożliwienie jednemu systemowi, znanemu jako emulator, na udawanie działania innego systemu, nazywanego emulowanym. Emulatory są często używane w kontekście gier komputerowych, platform wirtualizacyjnych, czy też do symulacji urządzeń.
+
+W skrócie, emulacja pozwala na działanie oprogramowania stworzonego dla jednego systemu na innym, często inaczej zbudowanym lub przeznaczonym na różne cele. Oprogramowanie emulacyjne tłumaczy instrukcje i funkcje jednego systemu na zrozumiałe dla drugiego, umożliwiając imitację jego działania.
+
+## Jak będzie wyglądała wirtualizacja w przyszłości ?
+
+Wirtualizacja w przyszłości prawdopodobnie będzie rozwijana w kilku kierunkach, wprowadzając nowe technologie i dostosowując się do zmieniających się potrzeb. Oto kilka prognoz dotyczących tego, jak mogłaby wyglądać wirtualizacja w przyszłości:
+
+- Zintegrowane Środowiska Wirtualizacyjne
+- Wirtualizacja Krawędzi (Edge Virtualization)
+- Wirtualizacja GPU
+- Efektywniejsza Wirtualizacja Kontenerów
+- Automatyzacja i Sztuczna Inteligencja w Zarządzaniu Zasobami
+- Bezpieczeństwo Wirtualizacji
 
 
 
