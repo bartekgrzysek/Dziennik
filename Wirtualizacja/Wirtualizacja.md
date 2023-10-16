@@ -104,5 +104,20 @@ Wirtualizacja typu pierwszego jest często stosowana w środowiskach data center
 
 *Poniżej przedstawiono filmik, w którym dokładnie przedstawiono plusy i minusy wirtualizacji.*
 
-[![Watch the video](https://www.youtube.com/watch?v=ni8ZOlUP4Ws/<VIDEO_ID>]
+[![Plusy i minusy Wirtualizacji](https://www.youtube.com/watch?v=ni8ZOlUP4Ws)]
+
+## Zastosowanie - czyli, kiedy nam przydaje się wirtualizacja
+
+Jednym z kluczowych obszarów zastosowania wirtualizacji jest efektywne wykorzystanie centrum danych i chmury obliczeniowej. Wirtualizacja umożliwia konsolidację serwerów, co prowadzi do zwiększenia efektywności energetycznej, oszczędności kosztów operacyjnych i lepszego zarządzania zasobami. W kontekście rozwoju oprogramowania, wirtualizacja pozwala programistom na szybkie tworzenie i testowanie różnych konfiguracji systemów operacyjnych i środowisk, co skraca cykle rozwoju i ułatwia poprawki błędów. To także narzędzie używane w celu przenoszenia aplikacji między różnymi środowiskami. Wirtualizacja pulpitów, znana również jako VDI, umożliwia zdalny dostęp do środowiska pulpitu komputerowego, co jest szczególnie ważne w dobie elastycznych modeli pracy i mobilności zawodowej. W obszarze bezpieczeństwa, izolacja maszyn wirtualnych przyczynia się do zwiększenia bezpieczeństwa, ponieważ problemy w jednej maszynie nie przenoszą się na pozostałe, co minimalizuje ryzyko ataków. Wirtualizacja jest również kluczowym elementem rozwiązań związanych z odzyskiwaniem po awarii. Dzięki możliwości przenoszenia maszyn wirtualnych między różnymi serwerami, organizacje mogą szybko przywrócić działanie systemów po wystąpieniu awarii.
+
+## Bezpieczeństwo w Wirtualizacji
+
+Bezpieczeństwo w wirtualizacji stanowi kluczowy obszar z uwagi na izolację różnych środowisk, a także potencjalne zagrożenia wynikające z dostępu do współdzielonych zasobów. Oto kilka aspektów bezpieczeństwa wirtualizacji:
+- **Izolacja Maszyn Wirtualnych (VMs):** Jednym z kluczowych elementów jest skuteczna izolacja między maszynami wirtualnymi. To zapobiega przenoszeniu zagrożeń z jednej maszyny na drugą.
+- **Bezpieczeństwo Hypervisora:** Bezpieczeństwo samego hypervisora (warstwy wirtualizacyjnej) jest kluczowe. Ataki na hypervizor mogą prowadzić do kompromitacji wszystkich maszyn wirtualnych działających na danej platformie.
+- **Zarządzanie Dostępem:** Kontrola dostępu do zarządzania wirtualizacją jest ważna. Ograniczenie uprawnień administratorów do konkretnych funkcji może zminimalizować potencjalne zagrożenia.
+- **Monitorowanie Aktywności:** Regularne monitorowanie aktywności maszyn wirtualnych, dostępu do hypervizora oraz ruchu sieciowego pozwala na wczesne wykrywanie potencjalnych ataków.
+- **Aktualizacje i Łatki:** Regularne stosowanie aktualizacji i łatek zarówno dla hypervizora, jak i systemów operacyjnych gości jest kluczowe dla zminimalizowania ryzyka związanego z lukami w zabezpieczeniach.
+- **Bezpieczeństwo Sieciowe:** Skonfigurowanie bezpiecznych polityk sieciowych, zastosowanie firewalli wewnątrz i na zewnątrz maszyn wirtualnych, a także monitorowanie ruchu sieciowego to kluczowe aspekty bezpieczeństwa.
+
 
