@@ -120,4 +120,53 @@ Bezpieczeństwo w wirtualizacji stanowi kluczowy obszar z uwagi na izolację ró
 - **Aktualizacje i Łatki:** Regularne stosowanie aktualizacji i łatek zarówno dla hypervizora, jak i systemów operacyjnych gości jest kluczowe dla zminimalizowania ryzyka związanego z lukami w zabezpieczeniach.
 - **Bezpieczeństwo Sieciowe:** Skonfigurowanie bezpiecznych polityk sieciowych, zastosowanie firewalli wewnątrz i na zewnątrz maszyn wirtualnych, a także monitorowanie ruchu sieciowego to kluczowe aspekty bezpieczeństwa.
 
+## Różnica między wirtualizacją a parawirtualizacją
+
+1. Czym jest parawirtualizacja ?
+
+Parawirtualizacja to technika wirtualizacji, która zapewnia interfejs dla maszyn wirtualnych, które są podobne do ich podstawowego sprzętu. W parawirtualizacji system operacyjny gościa jest jawnie przenoszony przed instalacją maszyny wirtualnej, ponieważ nie dostosowany system operacyjny gościa nie może działać na monitorze maszyny wirtualnej (VMM).
+
+**Główne cechy parawirtualizacji:**
+- modyfikowanie kodu źródłowego gościa
+- interakcja z Hypervisorem
+- wydajność
+- współdzielenie ressursów
+
+**RÓŻNICA MIĘDZY WIRTUALIZACJĄ A PARAWIRTUALIZACJĄ
+
+|Wirtualizacja | Parawirtualizacja |
+| --- | --- |
+|System operacyjny gościa nieświadomie działa w wirtualnym środowisku. | System operacyjny gościa jest dostosowany do współpracy z hypervisorem |
+| Możliwa do użycia bez potrzeby modyfikacji systemu operacyjnego gościa. | Wymaga dostosowania systemu operacyjnego gościa |
+| W związku z koniecznością emulacji nieobsługiwanych instrukcji, mogą wystąpić dodatkowe luki bezpieczeństwa. | W związku z bezpośrednią komunikacją, istnieje mniejsze ryzyko dodatkowych luk bezpieczeństwa. |
+| Hypervisor tłumaczy lub emuluje niektóre instrukcje procesora. | Hypervisor nie emuluje nieobsługiwanych instrukcji |
+
+## Przykładowe programy do wirtualizacji
+
+**Programy służące do wirtualizacji:**
+
+*1.VMware Workstation/Player*
+
+VMware Workstation to zaawansowane oprogramowanie do wirtualizacji dla profesjonalistów, umożliwiające jednoczesne uruchamianie wielu maszyn wirtualnych na jednym komputerze. Oferuje zaawansowane opcje konfiguracyjne, możliwość tworzenia snapshotów i integrację z chmurą VMware.
+
+VMware Player to darmowa wersja VMware Workstation, przeznaczona głównie do użytku osobistego. Posiada prosty interfejs użytkownika i umożliwia uruchamianie maszyn wirtualnych stworzonych w innych platformach wirtualizacyjnych, ale ma ograniczone funkcje zaawansowane w porównaniu do wersji komercyjnej.
+
+*2.Microsoft Hyper-V*
+
+Hyper-V to wbudowany w systemy Windows hipernadzorca do wirtualizacji, umożliwiający uruchamianie wielu maszyn wirtualnych z różnymi systemami operacyjnymi na jednym fizycznym serwerze. Działa na bazie wirtualizacji sprzętowej, oferuje migrację maszyn wirtualnych, elastyczną konfigurację i jest dostępny bezpłatnie w systemach Windows Server oraz niektórych edycjach Windows 10.
+
+*3.Oracle VirtualBox*
+
+Oracle VirtualBox to darmowe i otwarte oprogramowanie do wirtualizacji, umożliwiające uruchamianie różnych systemów operacyjnych na jednym komputerze. Posiada intuicyjny interfejs, obsługuje snapshoty, oferuje wsparcie dla wielu systemów operacyjnych gości i jest dostępny bezpłatnie zarówno do użytku osobistego, jak i komercyjnego.
+
+*4.KVM*
+
+Kernel-based Virtual Machine (KVM) to rozszerzenie jądra Linux umożliwiające wirtualizację sprzętową. Działa jako moduł jądra, umożliwiając uruchamianie maszyn wirtualnych na platformie Linux. KVM jest darmowy, open-source i efektywny, wykorzystując funkcje wirtualizacji procesora.
+
+*5.XEN*
+
+Xen to hipernadzorca wirtualizacji, który umożliwia uruchamianie wielu systemów operacyjnych na jednym fizycznym serwerze. Jest darmowy, open-source i stosuje technikę parawirtualizacji, gdzie goście są dostosowane do współpracy z hypervisorem. Xen jest często używany w centrum danych i chmurach obliczeniowych do efektywnego zarządzania zasobami i izolacji maszyn wirtualnych.
+
+
+
 
