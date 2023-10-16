@@ -4,4 +4,4 @@
 
 Na przykład, wirtualizacja serwera pozwala uruchomić wiele serwerów wirtualnych na jednym fizycznym serwerze. Każdy z tych serwerów wirtualnych może działać niezależnie, posiadając własny system operacyjny i aplikacje, chociaż fizycznie dzieli się zasobami z innymi serwerami wirtualnymi na tym samym sprzęcie.
 
-![Wirtualizacja](blob:https://airlan2.atlassian.net/78a897ea-5214-4ff7-b43a-70ced23416f2)
+![Wirtualizacja](https://www.inprox.pl/storage/uploads/news/72cf484e90c41a32b5f68dc58a2fb941.jpg)
