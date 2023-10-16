@@ -82,4 +82,27 @@ Wirtualizacja typu pierwszego jest często stosowana w środowiskach data center
 - VMware Workstation
 - Microsoft Hyper-V w trybie hostowanym
 
+## Co można wirtualizować ?
+- Aplikacje
+- Systemy operacyjne
+- Sieci komputerowe
+- Pamięci masowe
+- Maszyny wirtualne
+- Serwery
+- Kontenery
+- Usługi ( WWW, bazy danych, aplikacje serwerowe)
+
+## Wirtualizacja - Zalety - Wady
+
+| **ZALETY** | **WADY** |
+| --- | --- |
+| Efektywne wykorzystanie zasobów | Złożoność zarządzania |
+| Izolacja | Wydajność aplikacji czasu rzeczywistego |
+| Szybkie wdrażanie i testowanie | Zależność od hypervisora |
+| Oszczędność kosztów energetycznych | Ograniczenia na poziomie sprzętu |
+| Zarządzanie zasobami ( Hypervisory) | Złożoność odzyskiwania po awarii |
+
+*Poniżej przedstawiono filmik, w którym dokładnie przedstawiono plusy i minusy wirtualizacji.*
+
+[![Watch the video](https://www.youtube.com/watch?v=ni8ZOlUP4Ws/<VIDEO_ID>]
 
