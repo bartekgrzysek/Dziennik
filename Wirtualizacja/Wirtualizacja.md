@@ -8,5 +8,7 @@ Na przykład, wirtualizacja serwera pozwala uruchomić wiele serwerów wirtualny
 
 ## Zarys historyczny - początki rozwoju wirtualizacji
 
-![IBM](https://www.virtual-it.pl/grafika/art/histwirt/IBM-System-360-Model-65_operator-console.jpg) 
 Wirtualizacja to kluczowa technologia w dziedzinie informatyki, umożliwiająca efektywne zarządzanie zasobami komputerowymi i optymalne wykorzystanie infrastruktury IT. Historia wirtualizacji sięga lat 60., kiedy to IBM wprowadziło koncepcję maszyn wirtualnych. Początkowo skupiała się ona na możliwości uruchamiania wielu systemów operacyjnych na jednym komputerze, co otworzyło drogę do efektywnego dzielenia zasobów.
+
+![IBM](https://www.virtual-it.pl/grafika/art/histwirt/IBM-System-360-Model-65_operator-console.jpg) 
+
