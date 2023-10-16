@@ -48,13 +48,14 @@ Przykłady wykorzystania konteneryzacji to m.in. oprogramowanie **Docker** czy *
 
 **Wirtualizacja typu pierwszego** charakteryzuje się tym, iż hipernadzorca (ang. Hypervisor), czyli program komputerowy realizujący zadania związane z wirtualizacją, pracuje bezpośrednio na sprzęcie komputera fizycznego i przydziela zasoby sprzętowe maszynom wirtualnych bez pośrednictwa systemu operacyjnego gospodarza (ang. host). Każda maszyna wirtualna w takiej technologii staje się niejako osobnym obszarem, osobnym blokiem, czasem nazywanym partycją obsługiwanym przez hypervizora, który przydziela jej zasoby.
 
+  ![Wirtualizacja typu pierwszego](https://pasja-informatyki.pl/pliki/wirtualizacja-typ-1.png)
+
 **Zalety wirtualizacji typu pierwszego:**
 - Hypervisor bezpośredni na sprzęcie
 - Bezpośredni dostęp do zasobów
 - Wyższa wydajność
 - Bezpośrednia kontrola nad zasobami
 - Minimalny narzut systemowy
-  ![Wirtualizacja typu pierwszego](https://pasja-informatyki.pl/pliki/wirtualizacja-typ-1.png)
 
   **Przykłady hypervisorów typu pierwszego to:**
 - Vmware ESXi
